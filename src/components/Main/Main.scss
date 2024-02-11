@@ -1,0 +1,12 @@
+@import '../../scss/mixins.scss';
+
+.main {
+  width: 1070px;
+  margin: 0 auto;
+  @include media(1070px) {
+    width: 720px;
+  }
+  @include media(720px) {
+    width: 320px;
+  }
+}

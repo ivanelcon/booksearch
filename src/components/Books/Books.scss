@@ -1,0 +1,7 @@
+.books {
+  margin-left: 8px;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
