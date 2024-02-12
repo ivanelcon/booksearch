@@ -1,6 +1,6 @@
-**Установка:**
+**Установка:** 
 <ol>
-  <br>клонируем</li>
+  <li>клонируем</li>
   <li>npm install</li>
   <li>npm start</li>
   <li>localhost:3000</li>
