@@ -1,12 +1,12 @@
-**Установка:** 
+**How to install:** 
 <ol>
-  <li>клонируем</li>
+  <li>clone this repo</li>
   <li>npm install</li>
   <li>npm start</li>
-  <li>localhost:3000</li>
+  <li>go to localhost:3000</li>
 </ol>
 
-**Стек:**
+**Used stack:**
 <ul>
   <li>TypeScript</li>
   <li>React</li>
@@ -16,5 +16,5 @@
   <li>CRA</li>
 </ul>
 
-**Скрин:**
-![demo](https://github.com/prg938/GoogleBooksReact/assets/7237762/87a65e6a-70e3-4dce-b336-7e077ae8b453)
+**Screenshots:**
+![111](https://github.com/prg938/GoogleBooksReact/assets/7237762/e782bc9c-3d57-4991-816e-db9a37510236)
