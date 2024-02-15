@@ -17,4 +17,4 @@
 </ul>
 
 **Screenshots:**
-![111](https://github.com/prg938/GoogleBooksReact/assets/7237762/e782bc9c-3d57-4991-816e-db9a37510236)
+![pushkin](https://github.com/prg938/GoogleBooksReact/assets/7237762/7e6c3b40-32cc-4212-9cdc-d257d8c06247)
