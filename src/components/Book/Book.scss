@@ -1,17 +1,18 @@
 
 .book {
   width: 320px;
-  height: 185px;
+  max-height: 185px;
   display: flex;
-  font-size: 14px;
+  font-size: 0.9rem;
   margin: 10px;
   margin-left: 0;
   overflow: hidden;
   
   &__info {
-    overflow: scroll;
+    overflow-y: auto;
+    word-wrap: break-word;
     margin-left: 10px;
-    padding-right: 3px;
+    max-height: 185px;
   }
   &__thumbnail {
     img {

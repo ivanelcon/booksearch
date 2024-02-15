@@ -1,0 +1,11 @@
+
+.search {
+  display: flex;
+  
+  &__input {
+    flex: 1 1 auto;
+  }
+  &__submit {
+    flex: 0 0 auto;
+  }
+}

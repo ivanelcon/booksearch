@@ -40,7 +40,7 @@ const BooksList = memo<BooksListProperties>(props => {
       thumbnail={item.thumbnail} />
   })
   return <>
-    {isCategorySpecific ? `в категории ${category}: ` + books.length : ''}
+    <div className='books__found-in-cat'>{`В категории ${category}: ` + books.length}</div>
     <div className='books__list'>{booksJSXElements}</div>
   </>
 })
@@ -73,7 +73,7 @@ const Books: FunctionComponent = () => {
   if (books.length === 0) return <div className='books'>{pending ? <CustomSpinner /> : 'Книг не найдено'}</div>
 
   return <div className='books'>
-    {pending ? <CustomSpinner /> : <div>Найдено: {totalItems} книг</div>}
+    {pending ? <CustomSpinner /> : <div className='books__found'>{`Найдено: ${totalItems} книг`}</div>}
     <BooksList books={books} category={category} />
     {isNextBooksButtonVisible ? <Button variant="outlined" onClick={fetchNextBooks} disabled={pending}>
       {pending ? 'загрузка...' : 'загрузить еще 30 книг'}

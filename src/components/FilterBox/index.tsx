@@ -1,13 +1,16 @@
+import './FilterBox.scss'
 import Searcher from "./Searcher"
 import CategorySelect from "./CategorySelect"
 import SortSelect from "./SortSelect"
 
 export default () => {
   return (
-    <div>
+    <div className="filterbox">
       <Searcher />
-      <CategorySelect />
-      <SortSelect />
+      <div className="filterbox__selectors">
+        <CategorySelect />
+        <SortSelect />
+      </div>
     </div>
   )
 }

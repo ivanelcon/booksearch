@@ -18,7 +18,7 @@ const Book: FunctionComponent<BookProperties> = props => {
 
   return <div className='book'>
     <div className='book__thumbnail'>
-      <img src={thumbnail} />
+      <img src={thumbnail} alt='nothumbnail' />
     </div>
     <div className='book__info'>
       <div className='book__title'><b>Название: </b>{title}</div>

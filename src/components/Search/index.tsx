@@ -1,6 +1,5 @@
-
+import './Search.scss'
 import {FunctionComponent} from 'react'
-
 import IconButton from "@mui/material/IconButton"
 import SearchIcon from "@mui/icons-material/Search"
 import TextField from "@mui/material/TextField"
@@ -19,17 +18,18 @@ const Search: FunctionComponent<SearchProperties> = props => {
     onSubmit(value)
   }
 
-  return <form onSubmit={submitHandler}>
+  return <form className='search' onSubmit={submitHandler}>
       <TextField
-        sx={{width: '80%', ml: 1}}
-        label="Найти книги"
+        className='search__input'
+        sx={{ml: 1}}
+        label="Search"
         variant="outlined"
         placeholder="нажмите Enter для поиска"
         size="small"
         value={value}
         onChange={event => onChange(event.target.value)}
       />
-      <IconButton type="submit" aria-label="search">
+      <IconButton className='search__submit' type="submit" aria-label="search">
         <SearchIcon style={{fill: 'blue'}} />
       </IconButton>
     </form>

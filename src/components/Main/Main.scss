@@ -9,4 +9,7 @@
   @include media(720px) {
     width: 320px;
   }
+  @include media(320px) {
+    width: 100%;
+  }
 }
