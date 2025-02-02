@@ -1,2 +1,2 @@
 тестовое в компанию itfactory<br>
-<b>стек:</b> GB API,TypeScript, React, ReduxToolkit, SASS, MUI, CRA
+<b>стек:</b> TypeScript, React, RTK, SASS, MUI, CRA, GB API
